@@ -6,9 +6,9 @@
 # Существует только одна тройка Пифагора, для которой a + b + c = 1000.
 # Найдите произведение abc.
 def func
-  for a in 0..998
-    for b in (a + 1)..999
-      for c in (b + 1)..1000
+  for a in 0..332
+    for b in (a + 1)..499
+      for c in (b + 1)..997
         return a * b * c if a**2 + b**2 == c**2 && a + b + c == 1000
       end
     end
